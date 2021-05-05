@@ -94,10 +94,6 @@ nav {
     color: #fff;
 }
 
-section {
-    height: 100vh;
-}
-
 .header-movie {
     display: flex;
     margin-bottom: 60px;
@@ -113,7 +109,6 @@ section {
 
 .description {
     line-height: 30px;
-    margin-bottom: 50px;
     height: 180px;
     overflow-y: auto;
     letter-spacing: 1px;
@@ -196,12 +191,12 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .image-text h3{
@@ -209,3 +204,47 @@ section {
     text-align: center;
 }
 
+.premiers-active {
+    border-bottom: 7px solid red;
+    background: none;
+}
+
+.image-slider-section{
+    height: 50vh;
+    background: rgb(37, 37, 37);
+}
+
+.image-slider-section p {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.image-slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image-slider {
+    display: flex;
+    width: 100%;
+}
+
+.image-slider img {
+    height: 300px;
+    width: 200px;
+}
+
+.movie-container h3 {
+    margin-top: 10px;
+    font-weight: 800;
+    
+}
+
+.image-slider p {
+    font-size: inherit;
+}
+
+.slider-img {
+    display: inline-block;
+}
